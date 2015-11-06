@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>专属采购平台</title>
+    <meta name="keywords" content="项目关键词" />
+    <meta name="description" content="项目描述" />
+    <script>
+        var sn = sn || {}
+    </script>
+    
+    <!-- 引入全站公用资源文件 -->
+    <!--#include file="/include/resources.shtml"-->
+
+    <!-- 引入项目css资源文件,并配置构建地址演示 -->
+    <!-- build:css ./assets/css/login.css -->
+    <link rel="stylesheet" href="css/login.scss" />
+    <!-- endbuild -->
+</head>
+<!--[if lt IE 7 ]><body class="ie ie6"><![endif]-->
+<!--[if IE 7 ]><body class="ie ie7"><![endif]-->
+<!--[if IE 8 ]><body class="ie ie8"><![endif]-->
+<!--[if IE 9 ]><body class="ie9"><![endif]-->
+<!--[if (gt IE 9)|!(IE)]><!--><body><!--<![endif]-->
+<div class="full-page-bar"></div>
+<div class="cg-login-page-container">
+    <div class="cg-login-header">
+        <a href="http://www.suning.com" name="index1_none_logo_logo01" class="logo">苏宁易购</a>
+        <h3>大客户服务热线：400-516-516</h3>
+    </div>
+    <div class="cg-login-container">
+<!--         <div class="unslider has-dots">
+            <ul class="bg-pics">
+                <li><img src="temp/1.jpg"> </li>
+                <li><img src="temp/2.jpg"> </li>
+                <li><img src="temp/3.jpg"> </li>
+                <li><img src="temp/4.jpg" > </li>
+            </ul>
+            <ol class="dots">
+                <li class="dot">1</li>
+                <li class="dot">2</li>
+                <li class="dot">3</li>
+                <li class="dot">4</li>
+            </ol>
+        </div> -->
+        <div class="unslider has-dots">
+            <ul>
+                <li>
+                   <img src="temp/1.jpg">
+                </li>
+
+                <li>
+                    <img src="temp/2.jpg">
+                </li>
+
+                <li>
+                    <img src="temp/3.jpg">
+                </li>
+
+                <li>
+                    <img src="temp/4.jpg">
+                </li>
+            </ul>
+        </div>
+
+        <div class="cg-login">
+            <div class="cg-login-wrap">
+                <div class="input-wrapper">
+                    <label class="input-label">账户</label>
+                    <input type="text" name="account">
+                </div>
+                <div class="input-wrapper">
+                    <label class="input-label">密码</label>
+                    <input type="password" name="password">
+                </div>
+                <div class="check-group">
+                    <label class="input-label">请输入验证码</label>
+                    <input type="text" name="checkcode" class="checkcode-text">
+                    <img src="" class="checkcode-pic" alt="checkcode">
+                </div>
+                <a href="" class="change">更换一张</a>
+                <div class="button-wrap">
+                    <button class="cg-submit">登 录</button>
+                    <a href="#">注册企业账户</a>
+                </div>
+            </div>
+            <p class="cg-error">账户名或密码错误</p>
+        </div>
+    </div>
+
+</div>
+   
+    <!-- 此处引入公用尾部 -->
+    <!--#include file="/include/footer.shtml"-->
+<!-- build:js ./assets/js/unslider.min.js -->
+<script src="/js/unslider.min.js"></script>
+<!-- endbuild -->
+<!-- build:js ./assets/js/login.js -->
+<script src="/js/login.js"></script>
+<!-- endbuild -->
+<script>
+
+</script>   
+</body>
+</html>

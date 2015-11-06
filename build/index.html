@@ -1,0 +1,446 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>专属采购平台</title>
+    <meta name="keywords" content="&#x9879;&#x76EE;&#x5173;&#x952E;&#x8BCD;">
+    <meta name="description" content="&#x9879;&#x76EE;&#x63CF;&#x8FF0;">
+    <script>
+        var sn = sn || {}
+    </script>
+
+    <!-- 引入全站公用资源文件 -->
+    <!--#include file="/include/resources.shtml"-->
+
+    <!-- 引入项目css资源文件,并配置构建地址演示 -->
+    <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+<!--[if lt IE 7 ]>
+<body class="ie ie6"><![endif]-->
+<!--[if IE 7 ]>
+<body class="ie ie7"><![endif]-->
+<!--[if IE 8 ]>
+<body class="ie ie8"><![endif]-->
+<!--[if IE 9 ]>
+<body class="ie9"><![endif]-->
+<!--[if (gt IE 9)|!(IE)]><!-->
+<body><!--<![endif]-->
+
+
+<div class="cg-toolbar">
+    <div class="cg-wrapper clearfix">
+        <div class="cg-wrapper-left"><a href="" target="_blank">首页</a>&nbsp;&nbsp;Hi,<em>除人机！</em>&nbsp;欢迎来到专属采购平台！&nbsp;<a class="exit" href="javascript:;">退出</a>
+        </div>
+        <div class="cg-wrapper-right">
+            <div id="order" class="right-option">
+                <a href="javascript:;">订单管理</a>
+                <div></div>
+                <div class="order-down">
+                    <a href="javascript:;">订单管理</a>
+                    <a href="">我的订单</a>
+                    <a href="">订单审核</a>
+                </div>
+                <div></div>
+            </div>
+            <div class="right-option">
+                <a href="javascript:;">账号管理</a>
+            </div>
+            <div class="right-option">
+                <a href="javascript:;"><span>购物车</span><i>48</i></a>
+            </div>
+
+        </div>
+    </div>
+</div>
+<div class="cg-header">
+    <div class="cg-header-con">
+        <div class="cg-logo-box">
+            <a href="http://www.suning.com" class="cg-logo">
+                <img src="https://sslres.suning.com/public/v3/images/logo/snlogo.png?v=2015042703" height="100" width="190" alt="">
+            </a>
+            <i></i>
+            <a href="javascript:;" class="cg-per-logo">
+                <img src="temp/lenovo.png" alt="">
+            </a>
+        </div>
+        <div class="cg-search">
+            <div class="g-search">
+                <i class="ng-iconfont search-icon"></i>
+
+                <form method="get" onsubmit="return SFE.search.onSubmitSearch(this)">
+                    <div class="search-keyword-box">
+                        <input tabindex="0" id="searchKeywords" type="text" class="search-keyword" name="index1_none_search_ss2" value="" autocomplete="off">
+                    </div>
+                    <input id="searchSubmit" type="submit" class="search-btn" name="index1_none_search_ss1" value="&#x641C;&#x7D22;">
+                </form>
+                <!--<div id="ac_results" class="g-ac-results hide"></div>-->
+                <!--<div id="rec_results" class="g-rec-results hide">-->
+                <!--<ul class="history-results"></ul>-->
+                <!--<ul class="rec-results"></ul>-->
+                <!--</div>-->
+            </div>
+        </div>
+        <div class="cg-tel">大客户服务热线：400-516-516</div>
+    </div>
+</div>
+<div class="cg-main clearfix">
+    <div class="m-contain clearfix">
+        <div class="contain-left clearfix">
+            <ul class="guider">
+                <li><i></i><span>办公用品</span></li>
+                <li><i></i><span>苏宁互联</span></li>
+                <li><i></i><span>生鲜蔬菜</span></li>
+                <li><i></i><span>日用百货</span></li>
+                <li><i></i><span>苏宁超市</span></li>
+                <li><i></i><span>苏宁超市</span></li>
+                <li><i></i><span>办公用品</span></li>
+                <li><i></i><span>苏宁互联</span></li>
+                <li><i></i><span>生鲜蔬菜</span></li>
+                <li><i></i><span>日用百货</span></li>
+                <li><i></i><span>苏宁超市</span></li>
+                <li><i></i><span>日用百货</span></li>
+                <li><i></i><span>苏宁超市</span></li>
+            </ul>
+            <div class="gui-child">
+                <div class="ch-contain" style="display: block;">
+                    <dl>
+                        <dt>品牌</dt>
+                        <dd>
+                            <a href="">商品</a>
+                            <a href="">商品</a>
+                            <a href="">商品</a>
+                            <a href="">商品</a>
+                            <a href="">商品</a>
+                            <a href="">商品</a>
+                            <a href="">商品</a>
+                            <a href="">商品</a>
+                            <a href="">商品</a>
+                            <a href="">商品</a>
+                            <a href="">商品</a>
+                            <a href="">商品</a>
+                            <a href="">商品</a>
+                            <a href="">商品</a>
+                            <a href="">商品</a>
+                            <a href="">商品</a>
+                            <a href="">商品</a>
+                            <a href="">商品</a>
+                            <a href="">商品</a>
+                        </dd>
+                    </dl>
+                    <dl>
+                        <dt>品牌</dt>
+                        <dd>
+                            <a href="">商品</a>
+                            <a href="">商品</a>
+                            <a href="">商品</a>
+                            <a href="">商品</a>
+                            <a href="">商品</a>
+                            <a href="">商品</a>
+                            <a href="">商品</a>
+                            <a href="">商品</a>
+                            <a href="">商品</a>
+                            <a href="">商品</a>
+                            <a href="">商品</a>
+                            <a href="">商品</a>
+                            <a href="">商品</a>
+                            <a href="">商品</a>
+                            <a href="">商品</a>
+                            <a href="">商品</a>
+                            <a href="">商品</a>
+                            <a href="">商品</a>
+                            <a href="">商品</a>
+                        </dd>
+                    </dl>
+                    <dl>
+                        <dt>品牌</dt>
+                        <dd>
+                            <a href="">商品</a>
+                            <a href="">商品</a>
+                            <a href="">商品</a>
+                            <a href="">商品</a>
+                            <a href="">商品</a>
+                            <a href="">商品</a>
+                            <a href="">商品</a>
+                            <a href="">商品</a>
+                            <a href="">商品</a>
+                            <a href="">商品</a>
+                            <a href="">商品</a>
+                            <a href="">商品</a>
+                            <a href="">商品</a>
+                            <a href="">商品</a>
+                            <a href="">商品</a>
+                            <a href="">商品</a>
+                            <a href="">商品</a>
+                            <a href="">商品</a>
+                            <a href="">商品</a>
+                        </dd>
+                    </dl>
+                    <dl>
+                        <dt>品牌</dt>
+                        <dd>
+                            <a href="">商品</a>
+                            <a href="">商品</a>
+                            <a href="">商品</a>
+                            <a href="">商品</a>
+                            <a href="">商品</a>
+                            <a href="">商品</a>
+                            <a href="">商品</a>
+                            <a href="">商品</a>
+                            <a href="">商品</a>
+                            <a href="">商品</a>
+                            <a href="">商品</a>
+                            <a href="">商品</a>
+                            <a href="">商品</a>
+                            <a href="">商品</a>
+                            <a href="">商品</a>
+                            <a href="">商品</a>
+                            <a href="">商品</a>
+                            <a href="">商品</a>
+                            <a href="">商品</a>
+                        </dd>
+                    </dl>
+                </div>
+                <div class="ch-contain">
+                    <dl>
+                        <dt>品牌</dt>
+                        <dd>
+                            <a href="">商品</a>
+                            <a href="">商品</a>
+                            <a href="">商品</a>
+                            <a href="">商品</a>
+                            <a href="">商品</a>
+                            <a href="">商品</a>
+                            <a href="">商品</a>
+                            <a href="">商品</a>
+                            <a href="">商品</a>
+                            <a href="">商品</a>
+                            <a href="">商品</a>
+                            <a href="">商品</a>
+                            <a href="">商品</a>
+                            <a href="">商品</a>
+                            <a href="">商品</a>
+                            <a href="">商品</a>
+                            <a href="">商品</a>
+                            <a href="">商品</a>
+                            <a href="">商品</a>
+                        </dd>
+                    </dl>
+                </div>
+                <div class="ch-contain">
+                    <dl>
+                        <dt>品牌</dt>
+                        <dd>
+                            <a href="">商品</a>
+                            <a href="">商品</a>
+                            <a href="">商品</a>
+                            <a href="">商品</a>
+                            <a href="">商品</a>
+                            <a href="">商品</a>
+                            <a href="">商品</a>
+                            <a href="">商品</a>
+                            <a href="">商品</a>
+                            <a href="">商品</a>
+                            <a href="">商品</a>
+                            <a href="">商品</a>
+                            <a href="">商品</a>
+                            <a href="">商品</a>
+                            <a href="">商品</a>
+                            <a href="">商品</a>
+                            <a href="">商品</a>
+                            <a href="">商品</a>
+                            <a href="">商品</a>
+                        </dd>
+                    </dl>
+                    <dl>
+                        <dt>品牌</dt>
+                        <dd>
+                            <a href="">商品</a>
+                            <a href="">商品</a>
+                            <a href="">商品</a>
+                            <a href="">商品</a>
+                            <a href="">商品</a>
+                            <a href="">商品</a>
+                            <a href="">商品</a>
+                            <a href="">商品</a>
+                            <a href="">商品</a>
+                            <a href="">商品</a>
+                            <a href="">商品</a>
+                            <a href="">商品</a>
+                            <a href="">商品</a>
+                            <a href="">商品</a>
+                            <a href="">商品</a>
+                            <a href="">商品</a>
+                            <a href="">商品</a>
+                            <a href="">商品</a>
+                            <a href="">商品</a>
+                        </dd>
+                    </dl>
+                </div>
+                <div class="ch-contain">
+                    <dl>
+                        <dt>品牌</dt>
+                        <dd>
+                            <a href="">商品</a>
+                            <a href="">商品</a>
+                            <a href="">商品</a>
+                            <a href="">商品</a>
+                            <a href="">商品</a>
+                            <a href="">商品</a>
+                            <a href="">商品</a>
+                            <a href="">商品</a>
+                            <a href="">商品</a>
+                            <a href="">商品</a>
+                            <a href="">商品</a>
+                            <a href="">商品</a>
+                            <a href="">商品</a>
+                            <a href="">商品</a>
+                            <a href="">商品</a>
+                            <a href="">商品</a>
+                            <a href="">商品</a>
+                            <a href="">商品</a>
+                            <a href="">商品</a>
+                        </dd>
+                    </dl>
+                    <dl>
+                        <dt>品牌</dt>
+                        <dd>
+                            <a href="">商品</a>
+                            <a href="">商品</a>
+                            <a href="">商品</a>
+                            <a href="">商品</a>
+                            <a href="">商品</a>
+                            <a href="">商品</a>
+                            <a href="">商品</a>
+                            <a href="">商品</a>
+                            <a href="">商品</a>
+                            <a href="">商品</a>
+                            <a href="">商品</a>
+                            <a href="">商品</a>
+                            <a href="">商品</a>
+                            <a href="">商品</a>
+                            <a href="">商品</a>
+                            <a href="">商品</a>
+                            <a href="">商品</a>
+                            <a href="">商品</a>
+                            <a href="">商品</a>
+                        </dd>
+                    </dl>
+                    <dl>
+                        <dt>品牌</dt>
+                        <dd>
+                            <a href="">商品</a>
+                            <a href="">商品</a>
+                            <a href="">商品</a>
+                            <a href="">商品</a>
+                            <a href="">商品</a>
+                            <a href="">商品</a>
+                            <a href="">商品</a>
+                            <a href="">商品</a>
+                            <a href="">商品</a>
+                            <a href="">商品</a>
+                            <a href="">商品</a>
+                            <a href="">商品</a>
+                            <a href="">商品</a>
+                            <a href="">商品</a>
+                            <a href="">商品</a>
+                            <a href="">商品</a>
+                            <a href="">商品</a>
+                            <a href="">商品</a>
+                            <a href="">商品</a>
+                        </dd>
+                    </dl>
+                    <dl>
+                        <dt>品牌</dt>
+                        <dd>
+                            <a href="">商品</a>
+                            <a href="">商品</a>
+                            <a href="">商品</a>
+                            <a href="">商品</a>
+                            <a href="">商品</a>
+                            <a href="">商品</a>
+                            <a href="">商品</a>
+                            <a href="">商品</a>
+                            <a href="">商品</a>
+                            <a href="">商品</a>
+                            <a href="">商品</a>
+                            <a href="">商品</a>
+                            <a href="">商品</a>
+                            <a href="">商品</a>
+                            <a href="">商品</a>
+                            <a href="">商品</a>
+                            <a href="">商品</a>
+                            <a href="">商品</a>
+                            <a href="">商品</a>
+                        </dd>
+                    </dl>
+                    <dl>
+                        <dt>品牌</dt>
+                        <dd>
+                            <a href="">商品</a>
+                            <a href="">商品</a>
+                            <a href="">商品</a>
+                            <a href="">商品</a>
+                            <a href="">商品</a>
+                            <a href="">商品</a>
+                            <a href="">商品</a>
+                            <a href="">商品</a>
+                            <a href="">商品</a>
+                            <a href="">商品</a>
+                            <a href="">商品</a>
+                            <a href="">商品</a>
+                            <a href="">商品</a>
+                            <a href="">商品</a>
+                            <a href="">商品</a>
+                            <a href="">商品</a>
+                            <a href="">商品</a>
+                            <a href="">商品</a>
+                            <a href="">商品</a>
+                        </dd>
+                    </dl>
+                </div>
+            </div>
+        </div>
+        <div class="contain-mid">
+            <div class="banner">
+                <ul>
+                    <li><img src="temp/banner.jpg" alt=""></li>
+                    <li><img src="temp/banner.jpg" alt=""></li>
+                    <li><img src="temp/banner.jpg" alt=""></li>
+                </ul>
+            </div>
+        </div>
+        <div class="contain-right">
+            <div class="r-top">
+                <div class="userface">
+                    <img src="temp/lenovo.png" alt="">
+                </div>
+                <p class="username">中国移动通信集团有限公司</p>
+
+                <p class="userid">客户经理：王大锤</p>
+                <a class="user-btn" href="javascript:;">订单中心</a>
+                <a class="user-btn" href="javascript:;">账号管理</a>
+            </div>
+            <div class="r-news">
+                <p>公告</p>
+                <ul>
+                    <li class="clearfix"><a href="javascript:;">苏宁专属采购平台</a><i>4-13</i></li>
+                    <li class="clearfix"><a href="javascript:;">苏宁专属采购平台</a><i>4-13</i></li>
+                    <li class="clearfix"><a href="javascript:;">苏宁专属采购平台</a><i>4-13</i></li>
+                    <li class="clearfix"><a href="javascript:;">苏宁专属采购平台</a><i>4-13</i></li>
+                    <li class="clearfix"><a href="javascript:;">苏宁专属采购平台</a><i>4-13</i></li>
+                    <li class="clearfix"><a href="javascript:;">苏宁专属采购平台</a><i>4-13</i></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- 此处引入公用尾部 -->
+<!--#include file="/include/footer.shtml"-->
+
+</body>
+
+<script src="./assets/js/jquery.min.js"></script>
+<script src="./assets/js/unslider.min.js"></script>
+<script src="./assets/js/layout.js"></script>
+</html>

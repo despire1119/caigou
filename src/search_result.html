@@ -1,0 +1,417 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>专属采购平台</title>
+    <meta name="keywords" content="项目关键词"/>
+    <meta name="description" content="项目描述"/>
+    <script>
+        var sn = sn || {}
+    </script>
+
+    <!-- 引入全站公用资源文件 -->
+    <!--#include file="/include/resources.shtml"-->
+
+    <!-- 引入项目css资源文件,并配置构建地址演示 -->
+    <!-- build:css ./assets/css/style.css -->
+    <link rel="stylesheet" href="css/style.scss"/>
+    <!-- endbuild -->
+    <link rel="stylesheet" type="text/css"
+          href="http://image.suning.cn/public/component/citySelect/1.0.0/css/Snaddress.css">
+</head>
+<!--[if lt IE 7 ]>
+<body class="ie ie6"><![endif]-->
+<!--[if IE 7 ]>
+<body class="ie ie7"><![endif]-->
+<!--[if IE 8 ]>
+<body class="ie ie8"><![endif]-->
+<!--[if IE 9 ]>
+<body class="ie9"><![endif]-->
+<!--[if (gt IE 9)|!(IE)]><!-->
+<body><!--<![endif]-->
+
+
+<div class="cg-toolbar">
+    <div class="cg-wrapper clearfix">
+        <div class="cg-wrapper-left"><a href="" target="_blank">首页</a>&nbsp;&nbsp;Hi,<em>除人机！</em>&nbsp;欢迎来到专属采购平台！&nbsp;<a
+                class="exit" href="javascript:;">退出</a>
+        </div>
+        <div class="cg-wrapper-right">
+            <div id="order" class="right-option">
+                <a href="javascript:;">订单管理</a>
+
+                <div></div>
+                <div class="order-down">
+                    <a href="javascript:;">订单管理</a>
+                    <a href="">我的订单</a>
+                    <a href="">订单审核</a>
+                </div>
+                <div></div>
+            </div>
+            <div class="right-option">
+                <a href="javascript:;">账号管理</a>
+            </div>
+            <div class="right-option">
+                <a href="javascript:;"><span>购物车</span><i>48</i></a>
+            </div>
+
+        </div>
+    </div>
+</div>
+<div class="cg-header">
+    <div class="cg-header-con">
+        <div class="cg-logo-box">
+            <a href="http://www.suning.com" class="cg-logo">
+                <img src="https://sslres.suning.com/public/v3/images/logo/snlogo.png?v=2015042703" height="100"
+                     width="190" alt=""/>
+            </a>
+            <i></i>
+            <a href="javascript:;" class="cg-per-logo">
+                <img src="temp/lenovo.png" alt=""/>
+            </a>
+        </div>
+        <div class="cg-search">
+            <div class="g-search">
+                <i class="ng-iconfont search-icon"></i>
+
+                <form method="get" onsubmit="return SFE.search.onSubmitSearch(this)">
+                    <div class="search-keyword-box">
+                        <input tabindex="0" id="searchKeywords" type="text" class="search-keyword"
+                               name="index1_none_search_ss2" value="" autocomplete="off">
+                    </div>
+                    <input id="searchSubmit" type="submit" class="search-btn" name="index1_none_search_ss1" value="搜索">
+                </form>
+                <!--<div id="ac_results" class="g-ac-results hide"></div>-->
+                <!--<div id="rec_results" class="g-rec-results hide">-->
+                <!--<ul class="history-results"></ul>-->
+                <!--<ul class="rec-results"></ul>-->
+                <!--</div>-->
+            </div>
+        </div>
+        <div class="cg-tel" style="position: relative;right: -200px;">大客户服务热线：400-516-516</div>
+    </div>
+</div>
+<div class="search-main clearfix">
+    <div class="wrapper">
+        <p class="crumbs"><span>首页</span>&nbsp;&gt;&nbsp;<span>办公电脑</span>&nbsp;&gt;&nbsp;<span
+                class="cr-last">电脑整机</span></p>
+
+        <div class="se-guider">
+            <div class="title">手机/数码/配件</div>
+            <ul>
+                <li>
+                    <p><i></i><em>手机通讯</em></p>
+
+                    <div class="gui-children">
+                        <span><a href="javascript:;">手机电池</a></span>
+                        <span><a href="javascript:;">手机电池</a></span>
+                        <span><a href="javascript:;">手机电池</a></span>
+                        <span><a href="javascript:;">手机电池</a></span>
+                        <span><a href="javascript:;">手机电池</a></span>
+                        <span><a href="javascript:;">手机电池</a></span>
+                    </div>
+                </li>
+                <li>
+                    <p><i></i><em>手机通讯</em></p>
+
+                    <div class="gui-children">
+                        <span><a href="javascript:;">手机电池</a></span>
+                        <span><a href="javascript:;">手机电池</a></span>
+                        <span><a href="javascript:;">手机电池</a></span>
+                        <span><a href="javascript:;">手机电池</a></span>
+                        <span><a href="javascript:;">手机电池</a></span>
+                        <span><a href="javascript:;">手机电池</a></span>
+                    </div>
+                </li>
+                <li>
+                    <p><i></i><em>手机通讯</em></p>
+
+                    <div class="gui-children">
+                        <span><a href="javascript:;">手机电池</a></span>
+                        <span><a href="javascript:;">手机电池</a></span>
+                        <span><a href="javascript:;">手机电池</a></span>
+                        <span><a href="javascript:;">手机电池</a></span>
+                        <span><a href="javascript:;">手机电池</a></span>
+                        <span><a href="javascript:;">手机电池</a></span>
+                    </div>
+                </li>
+                <li>
+                    <p><i></i><em>手机通讯</em></p>
+
+                    <div class="gui-children">
+                        <span><a href="javascript:;">手机电池</a></span>
+                        <span><a href="javascript:;">手机电池</a></span>
+                        <span><a href="javascript:;">手机电池</a></span>
+                        <span><a href="javascript:;">手机电池</a></span>
+                        <span><a href="javascript:;">手机电池</a></span>
+                        <span><a href="javascript:;">手机电池</a></span>
+                    </div>
+                </li>
+                <li>
+                    <p><i></i><em>手机通讯</em></p>
+
+                    <div class="gui-children">
+                        <span><a href="javascript:;">手机电池</a></span>
+                        <span><a href="javascript:;">手机电池</a></span>
+                        <span><a href="javascript:;">手机电池</a></span>
+                        <span><a href="javascript:;">手机电池</a></span>
+                        <span><a href="javascript:;">手机电池</a></span>
+                        <span><a href="javascript:;">手机电池</a></span>
+                    </div>
+                </li>
+                <li>
+                    <p><i></i><em>手机通讯</em></p>
+
+                    <div class="gui-children">
+                        <span><a href="javascript:;">手机电池</a></span>
+                        <span><a href="javascript:;">手机电池</a></span>
+                        <span><a href="javascript:;">手机电池</a></span>
+                        <span><a href="javascript:;">手机电池</a></span>
+                        <span><a href="javascript:;">手机电池</a></span>
+                        <span><a href="javascript:;">手机电池</a></span>
+                    </div>
+                </li>
+                <li>
+                    <p><i></i><em>手机通讯</em></p>
+
+                    <div class="gui-children">
+                        <span><a href="javascript:;">手机电池</a></span>
+                        <span><a href="javascript:;">手机电池</a></span>
+                        <span><a href="javascript:;">手机电池</a></span>
+                        <span><a href="javascript:;">手机电池</a></span>
+                        <span><a href="javascript:;">手机电池</a></span>
+                        <span><a href="javascript:;">手机电池</a></span>
+                    </div>
+                </li>
+                <li>
+                    <p><i></i><em>手机通讯</em></p>
+
+                    <div class="gui-children">
+                        <span><a href="javascript:;">手机电池</a></span>
+                        <span><a href="javascript:;">手机电池</a></span>
+                        <span><a href="javascript:;">手机电池</a></span>
+                        <span><a href="javascript:;">手机电池</a></span>
+                        <span><a href="javascript:;">手机电池</a></span>
+                        <span><a href="javascript:;">手机电池</a></span>
+                    </div>
+                </li>
+                <li>
+                    <p><i></i><em>手机通讯</em></p>
+
+                    <div class="gui-children">
+                        <span><a href="javascript:;">手机电池</a></span>
+                        <span><a href="javascript:;">手机电池</a></span>
+                        <span><a href="javascript:;">手机电池</a></span>
+                        <span><a href="javascript:;">手机电池</a></span>
+                        <span><a href="javascript:;">手机电池</a></span>
+                        <span><a href="javascript:;">手机电池</a></span>
+                    </div>
+                </li>
+                <li>
+                    <p><i></i><em>手机通讯</em></p>
+
+                    <div class="gui-children">
+                        <span><a href="javascript:;">手机电池</a></span>
+                        <span><a href="javascript:;">手机电池</a></span>
+                        <span><a href="javascript:;">手机电池</a></span>
+                        <span><a href="javascript:;">手机电池</a></span>
+                        <span><a href="javascript:;">手机电池</a></span>
+                        <span><a href="javascript:;">手机电池</a></span>
+                    </div>
+                </li>
+                <li>
+                    <p><i></i><em>手机通讯</em></p>
+
+                    <div class="gui-children">
+                        <span><a href="javascript:;">手机电池</a></span>
+                        <span><a href="javascript:;">手机电池</a></span>
+                        <span><a href="javascript:;">手机电池</a></span>
+                        <span><a href="javascript:;">手机电池</a></span>
+                        <span><a href="javascript:;">手机电池</a></span>
+                        <span><a href="javascript:;">手机电池</a></span>
+                    </div>
+                </li>
+            </ul>
+            <div class="button-bottom button-down"><i></i><em>查看更多分类</em></div>
+        </div>
+
+        <div class="main-right">
+            <div class="guid-bar">
+                <p class="bar-title"><em class="bar-goods">手机</em>&nbsp;搜索到&nbsp;<em class="bar-count">56789</em>&nbsp;件相关商品
+                </p>
+
+                <div class="bar-contain clearfix">
+                    <div class="key-left">已选条件:</div>
+                    <div class="key-detail selected">
+                        <!--<span id="sel-brand" class="clearfix"><a>佳能</a><i></i></span>-->
+                        <!--<span id="sel-price" style="padding-top: 1px; height: 17px;" class="clearfix"><a>100-1000</a><i></i></span>-->
+                    </div>
+                    <i id="all-clean">清空筛选条件</i>
+
+                </div>
+                <div class="bar-contain clearfix">
+                    <div class="key-left">品牌:</div>
+                    <div id="brands" class="key-detail">
+                        <span><a href="javascript:;">佳能(Canon)</a></span>
+                        <span><a href="javascript:;">佳能(Canon)</a></span>
+                        <span><a href="javascript:;">佳能(Canon)</a></span>
+                        <span><a href="javascript:;">佳能(Canon)</a></span>
+                        <span><a href="javascript:;">佳能(Canon)</a></span>
+                        <span><a href="javascript:;">佳能(Canon)</a></span>
+                        <span><a href="javascript:;">佳能(Canon)佳能(Canon)佳能(Canon)佳能(Canon)</a></span>
+                        <span><a href="javascript:;">佳能(Canon)佳能(Canon)佳能(Canon)佳能(Canon)</a></span>
+                        <span><a href="javascript:;">佳能(Canon)佳能(Canon)佳能(Canon)佳能(Canon)</a></span>
+                        <span><a href="javascript:;">佳能(Canon)佳能(Canon)佳能(Canon)佳能(Canon)</a></span>
+                        <span><a href="javascript:;">佳能(Canon)佳能(Canon)佳能(Canon)佳能(Canon)</a></span>
+                        <span><a href="javascript:;">佳能(Canon)佳能(Canon)佳能(Canon)佳能(Canon)</a></span>
+                        <span><a href="javascript:;">佳能(Canon)佳能(Canon)佳能(Canon)佳能(Canon)</a></span>
+                        <span><a href="javascript:;">佳能(Canon)佳能(Canon)佳能(Canon)佳能(Canon)</a></span>
+                    </div>
+                    <a href="javascript:;" id="showmore" class="more button-down clearfix"><i></i>更多</a>
+                </div>
+                <div class="bar-contain clearfix">
+                    <div class="key-left">价格:</div>
+                    <div class="key-detail price">
+                        <span><a href="javascript:;">0-200</a></span>
+                        <span><a href="javascript:;">0-200</a></span>
+                        <span><a href="javascript:;">0-200</a></span>
+                        <span><a href="javascript:;">0-200</a></span>
+                    </div>
+                    <div class="pri-filter">
+                        <input type="text"/>
+                        -
+                        <input type="text"/>
+                        <input id="pri-button" type="button" value="确定"/>
+                    </div>
+                </div>
+            </div>
+            <div class="target-point clearfix">
+                <span>送至</span>
+
+                <div id="city" class="citySelect"><a href="javascript:void(0);" class="cityboxbtn"><span
+                        style="display: none">安徽</span><em></em><span>黄山市</span><em></em><b></b></a>
+
+                    <div class="citybox">
+                        <div class="chooseArea fix"><p eq="0"><span>安徽</span><b></b></p>
+
+                            <p eq="1" class="cur"><span>黄山市</span><b></b></p>
+
+                            <div class="clear"></div>
+                        </div>
+                        <div class="arriveBox">
+                            <div class="cityshow"><span><a data="Sns_0">合肥市</a></span><span><a
+                                    data="Sns_1">芜湖市</a></span><span><a data="Sns_2">蚌埠市</a></span><span><a
+                                    data="Sns_3">淮南市</a></span><span><a data="Sns_4">马鞍山市</a></span><span><a
+                                    data="Sns_5">淮北市</a></span><span><a data="Sns_6">铜陵市</a></span><span><a
+                                    data="Sns_7">安庆市</a></span><span><a data="Sns_8">黄山市</a></span><span><a
+                                    data="Sns_9">滁州市</a></span><span><a data="Sns_10">阜阳市</a></span><span><a
+                                    data="Sns_11">宿州市</a></span><span><a data="Sns_12">六安市</a></span><span><a
+                                    data="Sns_13">亳州市</a></span><span><a data="Sns_14">池州市</a></span><span><a
+                                    data="Sns_15">宣城市</a></span></div>
+                        </div>
+                        <div class="closeSelector"></div>
+                    </div>
+                </div>
+                <span class="paging">
+                    <i><a href="">&lt;</a></i>
+                    <em class="now">1</em>&nbsp;&frasl;&nbsp;<em>100</em>
+                    <i><a href="">&gt;</a></i>
+                </span>
+            </div>
+            <div class="goods-detail clearfix">
+                <div class="width-over clearfix">
+
+                    <div class="goods">
+                        <a href="" class="ban">
+                            <img src="temp/goods.jpg" alt=""/>
+                        </a>
+                        <a href="" class="goods-tit">惠普HP1510家用打印机彩色照片复 印扫描多功能一体机 拷贝 2</a>
+
+                        <p class="goods-pre">易购价:&nbsp;&yen;<em style="text-decoration: line-through">123</em></p>
+
+                        <p class="goods-pri"><span>专享价</span>&nbsp;&yen;<em>2190.00</em></p>
+
+                        <p style="color: #999999;"><em>南京</em><em>有货</em></p>
+                        <!--<input class="bag" type="button" value="加入购物车"/>-->
+                        <div class="pre-bag clearfix"><input class="bag" type="button" value="加入购物车"/></div>
+                    </div>
+                    <div class="goods">
+                        <a href="" class="ban">
+                            <img src="temp/goods.jpg" alt=""/>
+                        </a>
+                        <a href="" class="goods-tit">惠普HP1510家用打印机彩色照片复 印扫描多功能一体机 拷贝 2</a>
+
+                        <p class="goods-pre">易购价:&nbsp;&yen;<em style="text-decoration: line-through">123</em></p>
+
+                        <p class="goods-pri"><span>专享价</span>&nbsp;&yen;<em>2190.00</em></p>
+
+                        <p style="color: #999999;"><em>南京</em><em>有货</em></p>
+                        <!--<input class="bag" type="button" value="加入购物车"/>-->
+                        <div class="pre-bag clearfix"><input class="bag" type="button" value="加入购物车"/></div>
+                    </div>
+                    <div class="goods">
+                        <a href="" class="ban">
+                            <img src="temp/goods.jpg" alt=""/>
+                        </a>
+                        <a href="" class="goods-tit">惠普HP1510家用打印机彩色照片复 印扫描多功能一体机 拷贝 2</a>
+
+                        <p class="goods-pre">易购价:&nbsp;&yen;<em style="text-decoration: line-through">123</em></p>
+
+                        <p class="goods-pri"><span>专享价</span>&nbsp;&yen;<em>2190.00</em></p>
+
+                        <p style="color: #999999;"><em>南京</em><em>有货</em></p>
+                        <!--<input class="bag" type="button" value="加入购物车"/>-->
+                        <div class="pre-bag clearfix"><input class="bag" type="button" value="加入购物车"/></div>
+                    </div>
+                    <div class="goods">
+                        <a href="" class="ban">
+                            <img src="temp/goods.jpg" alt=""/>
+                        </a>
+                        <a href="" class="goods-tit">惠普HP1510家用打印机彩色照片复 印扫描多功能一体机 拷贝 2</a>
+
+                        <p class="goods-pre">易购价:&nbsp;&yen;<em style="text-decoration: line-through">123</em></p>
+
+                        <p class="goods-pri"><span>专享价</span>&nbsp;&yen;<em>2190.00</em></p>
+
+                        <p style="color: #999999;"><em>南京</em><em>有货</em></p>
+                        <!--<input class="bag" type="button" value="加入购物车"/>-->
+                        <div class="pre-bag clearfix"><input class="bag" type="button" value="加入购物车"/></div>
+                    </div>
+                    <div class="goods">
+                        <a href="" class="ban">
+                            <img src="temp/goods.jpg" alt=""/>
+                        </a>
+                        <a href="" class="goods-tit">惠普HP1510家用打印机彩色照片复 印扫描多功能一体机 拷贝 2</a>
+
+                        <p class="goods-pre">易购价:&nbsp;&yen;<em style="text-decoration: line-through">123</em></p>
+
+                        <p class="goods-pri"><span>专享价</span>&nbsp;&yen;<em>2190.00</em></p>
+
+                        <p style="color: #999999;"><em>南京</em><em>有货</em></p>
+                        <!--<input class="bag" type="button" value="加入购物车"/>-->
+                        <div class="pre-bag clearfix"><input class="bag" type="button" value="加入购物车"/></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="sp-foot clearfix">
+    <div class="foot-img"></div>
+</div>
+<!-- 此处引入公用尾部 -->
+<!--#include file="/include/footer-simple.shtml"-->
+</body>
+
+<!-- build:js ./assets/js/jquery.min.js -->
+<script type="text/javascript" src="js/jquery.min.js"></script>
+<!--endbuild-->
+<!-- build:js ./assets/js/unslider.min.js -->
+<script type="text/javascript" src="js/unslider.min.js"></script>
+<!--endbuild-->
+<!-- build:js ./assets/js/layout.js -->
+<script type="text/javascript" src="js/layout.js"></script>
+<!--endbuild-->
+
+</html>
